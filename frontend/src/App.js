@@ -14,9 +14,9 @@ const languageMap = {
 
 const defaultCode = {
   python: "print('Hello, World!')",
-  cpp: `#include <iostream>\nusing namespace std;\nint main() {\n  cout << "Hello, World!";\n  return 0;\n}`,
+  cpp: `#include <bits/stdc++.h>\nusing namespace std;\nint main() {\n  cout << "Hello, World!";\n  return 0;\n}`,
   c: `#include <stdio.h>\nint main() {\n  printf("Hello, World!\\n");\n  return 0;\n}`,
-  java: `public class Main {\n  public static void main(String[] args) {\n    System.out.println("Hello, World!");\n  }\n}`,
+  java: `import java.util.Scanner;\n public class Main {\n  public static void main(String[] args) {\n Scanner sc = new Scanner(System.in); \n   System.out.println("Hello, World!");\n  }\n}`,
   javascript: `console.log("Hello, World!");`,
   html: `<!DOCTYPE html>\n<html>\n<head><title>Hello</title></head>\n<body>Hello, World!</body>\n</html>`,
   css: `body {\n  font-family: Arial;\n  background-color: #f0f0f0;\n}`
