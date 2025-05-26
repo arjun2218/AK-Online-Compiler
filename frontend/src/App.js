@@ -14,13 +14,36 @@ const languageMap = {
 
 const defaultCode = {
   python: "print('Hello, World!')",
-  cpp: `#include <bits/stdc++.h>\nusing namespace std;\nint main() {\n  cout << "Hello, World!";\n  return 0;\n}`,
-  c: `#include <stdio.h>\nint main() {\n  printf("Hello, World!\\n");\n  return 0;\n}`,
-  java: `import java.util.Scanner;\n public class Main {\n  public static void main(String[] args) {\n Scanner sc = new Scanner(System.in); \n   System.out.println("Hello, World!");\n  }\n}`,
+  cpp: `#include <bits/stdc++.h>
+using namespace std;
+int main() {
+  cout << "Hello, World!";
+  return 0;
+}`,
+  c: `#include <stdio.h>
+int main() {
+  printf("Hello, World!\\n");
+  return 0;
+}`,
+  java: `import java.util.Scanner;
+public class Main {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in); 
+    System.out.println("Hello, World!");
+  }
+}`,
   javascript: `console.log("Hello, World!");`,
-  html: `<!DOCTYPE html>\n<html>\n<head><title>Hello</title></head>\n<body>Hello, World!</body>\n</html>`,
-  css: `body {\n  font-family: Arial;\n  background-color: #f0f0f0;\n}`
+  html: `<!DOCTYPE html>
+<html>
+<head><title>Hello</title></head>
+<body>Hello, World!</body>
+</html>`,
+  css: `body {
+  font-family: Arial;
+  background-color: #f0f0f0;
+}`
 };
+
 
 function App() {
   const [language, setLanguage] = useState("python");
